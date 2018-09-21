@@ -1,4 +1,4 @@
-# The dpsFramework Agents Project
+# The installer: dpsFrameworkBuilder-1.7.jar
 
 <pre>
  *+-------------------------------------+------------------------------------+
