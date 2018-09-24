@@ -7,7 +7,7 @@ _dpsFramework_ also allows to run analysis processes; write _scripts_ to automat
 
 ## How to use the installer utility
 
-- Download binary file from: https://github.com/dpsframework/dpsFrameworkBuilder/releases
+- Download .JAR binary file from: https://github.com/dpsframework/dpsFrameworkBuilder/releases
 - Open a terminal:
 
 
