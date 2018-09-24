@@ -12,3 +12,18 @@ _dpsFramework_ also allows to run analysis processes; write _scripts_ to automat
 
 <br>
 
+
+# 2. References 
+
+
+[^TILAB]: **JADE Platform**. <http://jade.tilab.com/>. CSELT, S. & TILab, S. (2017). Jade - java agent development framework. is a framework to develop multi-agent systems in compliance with the fipa specifications. jade 4.5.0 - revision 6825 of 23-05-2017 10:06:04. Open Source, under LGPL restrictions.
+
+[^SHOHAM]: **Agent Oriented Programming**. Shoham, Y. (2005). Agent oriented programming: An overview of the framework and summary of recent research. <https://link.springer.com/chapter/10.1007/3-540-58095-6_9>
+
+
+[^FIPA]: **FIPA IP**. [FIPA00025] FIPA Interaction Protocol Library Specification. Foundation for Intelligent Physical Agents, 2002. <http://www.fipa.org/specs/fipa00025/> 
+
+
+
+[^HSQL]: **HyperSQL**: HSQLDB - 100% Java Database. <http://hsqldb.org/>
+
