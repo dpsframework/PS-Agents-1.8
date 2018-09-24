@@ -14,7 +14,7 @@ _dpsFramework_ also allows to run analysis processes; write _scripts_ to automat
 
 
 
-         $ >  export CLASSPATH=./*:lib/*:
+         $ >  export CLASSPATH=./*:lib/*:  (Note: Windows OS    set CLASSPATH=./*;lib/*; )
          $ >  java -jar dspFrameworkBuilder-1.7.jar   new  apollo56
          $ >  cd apollo56
      
