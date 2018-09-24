@@ -15,17 +15,17 @@ _dpsFramework_ also allows to run analysis processes; write _scripts_ to automat
 
 
          $ >  export CLASSPATH=./*:lib/*:
-         $ >  java -jar dspFrameworkBuilder-1.7.jar   new  apolo56
-         $ >  cd apolo56
+         $ >  java -jar dspFrameworkBuilder-1.7.jar   new  apollo56
+         $ >  cd apollo56
      
-         $ >  java launcher
-         $ >  java generate
-         $ >  java shell
+         ~/apollo56/ $ >  java launcher
+         ~/apollo56/ $ >  java generate
+         ~/apollo56/ $ >  java shell
       
-         $ >  java launcher monitor      localhost   Mont712 
-         $ >  java launcher stage-node   localhost   Jarvis CLIPS  
+         ~/apollo56/ $ >  java launcher monitor      localhost   Mont712 
+         ~/apollo56/ $ >  java launcher stage-node   localhost   Jarvis CLIPS  
   
-        etc.
+          etc.
 
 **Fig. 1:** _Monitor-Agent GUI with selected Tab JADE-JAVA Shell console at runtime._
 ![](/assets/images/psMonitorAgent00.png)
