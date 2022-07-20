@@ -1,17 +1,17 @@
-# PS-Agents-1.8 installer utility 
+# 1. PS-Agents-1.8 installer utility 
 
 - The previous version of PS-Agents can still be obtained by downloading \[dpsFrameworkBuilder-full-1.8.jar\](https://github.com/dpsframework/PS-Agents-1.8/releases/download/1.8/dpsFrameworkBuilder-full-1.8.jar) from GitHub at that address.
 - To create an agent-oriented application that also uses PS-Agents type agents and that is deployed on the JADE Platform, it is first necessary to create the environment with the dpsFramework-Builder installation utility. These are the four steps to follow:
 
 
-### 1. Where to download it from
+## 1.1. Where to download it from
 
 The PS-Agents-1.8 version installer is still available at: https://github.com/dpsframework/PS-Agents-1.8/releases/tag/1.8
 
 - Please download version 1.8 of the installer `dpsFrameworkBuilder-full-1.8.jar` to your local hard drive.
 
 
-### 2. Set the environment variable
+## 1.2. Set the environment variable
 
 - From a terminal, from the directory where you have downloaded the installer, configure the CLASSPATH variable for correct operation.
 - NOTE: `dpsFrameworkBuilder-full-1.8.jar file`is 24.099.219 bytes in size. 
@@ -75,7 +75,7 @@ ____________
 
 
 
-### 3. How to use the installer
+## 1.3. How to use the installer
 
 - First things first: create the agent application directory.
     - We propose to create an agent application with a name equal to: `AppApollo506` 
@@ -159,7 +159,7 @@ ____________
 - This verifies that the application environment has been created correctly.
 
 
-### 4. Operate on the application directory
+## 1.4. Operate on the application directory
 
 - Now it is necessary to move to the directory, create some agent and launch JADE.
 
@@ -230,7 +230,7 @@ ____________
 
 - But the result will be the same. It will only be necessary to launch in the background so as not to lose control of the console.
 
-### 4.bis Operate on the application directory with future PS-Agents type agents
+## 1.5. Operate with future PS-Agents type agents
 
  
 - If you have created the PS-Agents type agents in the previous sections, you can also open a small easter-egg found in the \`AppApollo56\` Application Directory. You can see the types of agents that can be launched with LAUNCHER with the `cat statement:
@@ -286,7 +286,7 @@ ps.launcher.artifacts.0=dummy\:jade.tools.DummyAgent.DummyAgent
 **Fig. 3:** _PreCog-Agent GUI with selected Tab Remote-Engine Shell at run-time._
 ![](./assets/images/psPrecogAgent00.png)
 
-### 5. Conclusions
+## 1.6. Conclusions
 
 - As can be seen, the agents created with the September 2018 [PS-Agents-1.8] Library can run with Java SE versions from 1.7 (see **Fig. 1**) to version 11 (see **Fig. 3**).
 
