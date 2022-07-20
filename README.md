@@ -292,7 +292,7 @@ ps.launcher.artifacts.0=dummy\:jade.tools.DummyAgent.DummyAgent
 
 - However, when it is necessary to use a version of Java greater than 11, it is no longer possible to establish the connection between the agents and the reasoning engines. This has been the reason for the implementation of the Update Process 2022, to generate the new version \[PS-Agents-2.1\] and propose security changes in the JADE platform, and in other components involved by these agents.
 
-- It is only possible to launch agents of type PSTestAgent (**Fig.2**) or of type `PSMonitorAgent`, which is insufficient to create applications with Expert Systems distributed through agents.
+- When using JDK-17 or OpenJDK-18, it is only possible to launch agents of type PSTestAgent (**Fig.2**) or of type `PSMonitorAgent`, which is insufficient to create applications with Expert Systems distributed through agents.
 
 
 # 2. References 
