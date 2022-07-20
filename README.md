@@ -286,7 +286,11 @@ ps.launcher.artifacts.0=dummy\:jade.tools.DummyAgent.DummyAgent
 **Fig. 3:** _PreCog-Agent GUI with selected Tab Remote-Engine Shell at run-time._
 ![](./assets/images/psPrecogAgent00.png)
 
+### 5. Conclusions
 
+- As can be seen, the agents created with the September 2018 [PS-Agents-1.8] Library can run with Java SE versions from 1.7 (see **Fig. 1**) to version 11 (see **Fig. 3**).
+
+- However, when it is necessary to use a version of Java greater than 11, it is no longer possible to establish the connection between the agents and the reasoning engines. This has been the reason for the implementation of the Update Process 2022, to generate the new version \[PS-Agents-2.1\] and propose security changes in the JADE platform, and in other components involved by these agents.
 
 
 # 2. References 
