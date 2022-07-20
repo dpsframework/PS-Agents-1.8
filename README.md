@@ -230,6 +230,63 @@ ____________
 
 - But the result will be the same. It will only be necessary to launch in the background so as not to lose control of the console.
 
+### 4.bis Operate on the application directory with future PS-Agents
+
+- Si ha creado los agentes de tipo PS-Agents en los apartados anteriores, también puede abrir un pequeño huevo de pascua que se encuentra en el Directorio de la Aplicación `AppApollo56`. Puede observar los tipos de agentes que es posible lanzar con LAUNCHER con la sentencia `cat`:
+
+```powershell
+  $ cat config/framework.properties
+  
+:: Output:
+----------
+#Revised at:
+#Wed xxxx-xxxx--xxxx CEST 2022
+ps.framework.publickey=asfjksd98843.9692adsf
+ps.framework.app.author=Your name, over here.
+ps.framework.keypasswd=password
+ps.framework.app.title=Distributed Production-Systems on JADE Platform
+ps.framework.node.serie=Node,Monitor,Mon712,Mon714,Mon814
+ps.framework.app.nativelib=
+ps.framework.app.created=Date
+ps.framework.app.objective=You can simulate multiple lines with \\n symbol.
+ps.launcher.artifacts.2=precog\:com.dpsframework.PsTestAgent
+ps.framework.name=AppApollo506
+ps.launcher.artifacts.1=test\:jade.tools.testagent.TestAgent
+ps.launcher.artifacts.0=dummy\:jade.tools.DummyAgent.DummyAgent
+
+
+```
+
+- Bien, existe una forma de lanzar agentes tipo TEST, Dummy y PreCOG con la utilidad LAUNCHER.
+- Los agentes de tipo PS-Agents-1.8 PsTestAgent, permiten emitir consultas en lenguaje JESS, Prolog o CLIPS hacia los agentes de la aplicación AppApollo506.
+- Para conseguirlo, puede seguir esto pasos:
+
+```powershell
+
+  $ java launcher platform localhost  &
+  $ java launcher precog   localhost   Mon712   &
+  $ java launcher test     localhost   TestJADE101   &
+  $ java launcher dummy    localhost   FamousDummy404  &
+  
+```
+
+- Desde la pestaña Remote-Engine Shell $: del agente PreCog con nombre Mon712, emitir hacia sí mismo, una consulta del número de clases presentes en la memoria de trabajo de un hipotético agente conectado a un motor tipo CLIPS. Escriba por ejemplo: (browse-classes)  y presione, CTRL+ALT+Enter o presione el botón con la polilla.
+
+
+**Fig. 2:** _PreCog-Agent GUI with selected Tab Remote-Engine Shell at run-time._
+![](./assets/images/psPrecogAgent01.png)
+
+
+- A continuación, desde el la consola Shell del Intérprete de Java del agente, proceda con la secuencia de órdenes siguientes (véase: **Fig. 3**). Recuerde que tiene activada la función de ayuda de teclado y puede ir presionando la tecla TABULADOR, para recuperar las Funciones y Objetos del Framework JADE.
+
+- Si desea construir y emitir mensajes hacia los otros agentes abiertos, es necesario elevar el nivel de ejecución del agente tipo [PS-Agents] hasta el nivel = 5. Presionando el botón en la barra superior o, si lo prefiere, con la llamada a función  `init( 5 );`desde la consola **Java-JADE Shell**.
+
+
+**Fig. 3:** _PreCog-Agent GUI with selected Tab Remote-Engine Shell at run-time._
+![](./assets/images/psPrecogAgent00.png)
+
+
+
 
 # 2. References 
 
