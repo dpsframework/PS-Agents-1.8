@@ -1,15 +1,15 @@
-# 1. dpsFrameworkBuilder: the installer utility 
+# 1. dpsFrameworkBuilder-1.8: the installer utility 
 
 ## 1.1. Where to download it from
 
-The PS-Agents-1.8 version installer is available here at: https://github.com/dpsframework/dpsFrameworkBuilder/releases/tag/1.8
+The distributed problem solver framework builder 1.8 version is an installer and it is available at: https://github.com/dpsframework/dpsFrameworkBuilder/releases/tag/1.8
 
-- Please download version 1.8 of the installer `dpsFrameworkBuilder-full-1.8.jar` to your local hard drive.
+- You need to download `dpsFrameworkBuilder-full-1.8.jar` to your local hard drive for launching that installer. JAVA JSE 8.x is necessary for runnig this JAR file.
 
 
-## 1.2. Set the environment variable
+## 1.2. Setting the Environment
 
-- From a terminal, from the directory where you have downloaded the installer, configure the CLASSPATH variable for correct operation.
+- From directory where you have downloaded the installer, configure the CLASSPATH variable for correct operation.
 - NOTE: `dpsFrameworkBuilder-full-1.8.jar file`is 24.099.219 bytes in size. 
 
 
